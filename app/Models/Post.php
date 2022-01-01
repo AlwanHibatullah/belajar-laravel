@@ -22,4 +22,9 @@ class Post extends Model
         // satu post mempunyai satu kategori (One-to-One)
         return $this->belongsTo(Category::class);
     }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }
