@@ -10,6 +10,7 @@ class AboutController extends Controller
     {
         return view('about', [
             'title' => 'About',
+            "active" => 'about',
             'name' => 'Alwan Hibatullah',
             'email' => 'alwanhibatullah@gmail.com',
             'image' => 'poto.jpg'
